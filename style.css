@@ -214,7 +214,7 @@ aside {
 --------------------------------------------*/
 #news {
     background-image: url(images/main-bg.jpg);
-    height: 240px; /* 背景エリアの高さは270pxに固定 */
+    height: 270px; /* 背景エリアの高さは270pxに固定 */
     margin-bottom: 40px;
 }
 #news .page-title {
@@ -228,9 +228,9 @@ aside {
 }
 .post-date {
     background: #0056b0;
-    border-radius: 50%;
+    border-radius: 20%;
     color: #fff;
-    width: 110px;
+    width: 100px;
     height: 100px;
     font-size: 1.625rem;
     text-align: center;
@@ -404,6 +404,7 @@ aside p {
         margin-left: 80px;
     }
 }
+
 
 
 
