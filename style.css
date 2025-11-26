@@ -19,7 +19,7 @@ img {
     max-width: 100%;
 }
 h1 {
-    color: #00aeef;
+    color: #0056b0;
     font-size:2rem;
     font-family: "M PLUS 2", sans-serif;
     font-optical-sizing: auto;
@@ -27,7 +27,7 @@ h1 {
     font-style: normal;
 }
 h2 {
-    color: #00aeef;
+    color: #0056b0;
     font-size:1.5rem;
     font-family: "M PLUS 2", sans-serif;
     font-optical-sizing: auto;
@@ -35,7 +35,7 @@ h2 {
     font-style: normal;
 }
 h4 {
-    color: #00aeef;
+    color: #0056b0;
     font-size:1.125rem;
     font-family: "M PLUS 2", sans-serif;
     font-optical-sizing: auto;
@@ -80,7 +80,7 @@ p {
     color: #432;
 }
 .main-nav a:hover {
-    color: rgb(22, 123, 240);
+    color: rgb(7, 160, 180);
 }
 
 /*HOME
@@ -110,7 +110,7 @@ p {
 ----------------------------------------------*/
 .button {
     font-size: 1.375rem;
-    background: #00aeef;
+    background: #0056b0;
     color: #fff;
     border-radius:8px;
     padding: 18px 32px;
@@ -159,7 +159,7 @@ p {
 /*フッター
 ---------------------------------------‐‐‐‐‐‐‐‐‐-*/
 footer {
-    background: rgb(0, 14, 95);
+    background: #0056b0;
     text-align: center;
     padding: 26px 0;
 }
@@ -173,13 +173,13 @@ footer p {
 
 .join-content li {
     font-size: 1.2rem;
-    color:#00aeef;
+    color:#0056b0;
     margin-bottom: 50px;
 }
 
 #list-id {
     font-size: 1.2rem;
-    color:#00aeef;
+    color:#0056b0;
     margin-bottom: 50px;
     line-height: 40px;
 }
@@ -227,7 +227,7 @@ aside {
     margin-bottom: 40px;
 }
 .post-date {
-    background: #00aeef;
+    background: #0056b0;
     border-radius: 50%;
     color: #fff;
     width: 100px;
@@ -266,7 +266,7 @@ aside {
 .sub-title {
     font-size: 1.375rem;
     padding: 0 8px 8px;
-    border-bottom: 2px #00aeef solid;
+    border-bottom: 2px #0056b0 solid;
     font-weight: normal;
 }
 
@@ -291,7 +291,7 @@ aside p {
 }
 
 .sub-menu a:hover {
-    color: #00aeef;
+    color: rgb(7, 160, 180);
 }
 
 /*ルート用
@@ -326,7 +326,7 @@ aside p {
     /* font-size: 24px; */
 
     /* フォントの色を変えて目立たせる（例: 薄い灰色など） */
-    color: #004c69; 
+    color: #0056b0; 
 
     /* 日本語のフォントとは別のフォントにする（デザイン性アップ） */
     font-family: 'M PLUS 2', sans-serif; /* h2で使っているRocknRoll Oneではないフォントを指定 */
@@ -404,4 +404,3 @@ aside p {
         margin-left: 80px;
     }
 }
-
