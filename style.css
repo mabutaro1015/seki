@@ -219,6 +219,7 @@ aside {
 }
 #news .page-title {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .post-info {
@@ -404,6 +405,7 @@ aside p {
         margin-left: 80px;
     }
 }
+
 
 
 
