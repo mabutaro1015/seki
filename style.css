@@ -258,9 +258,12 @@ aside {
     margin: 0 auto;
 }
 .post-title {
+    color: #0056b0;
+    font-size:2rem;
     font-family: "M PLUS 2", sans-serif;
-    font-size: 2rem;
-    font-weight: normal;
+    font-optical-sizing: auto;
+    font-weight: 850;
+    font-style: normal;
 }
 .post-title,
 .post-cat {
@@ -444,3 +447,4 @@ aside p {
 iframe {
     width: 100%;
 }
+
