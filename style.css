@@ -114,8 +114,16 @@ p {
     color: #fff;
     border-radius:8px;
     padding: 18px 32px;
-
+    /* スムーズに色が変わるように transition を追加するとよりきれいです */
+    transition: 0.3s; 
 }
+
+/* マウスが乗ったとき (hover) のスタイル */
+.button:hover {
+    background: #0055b08a; /* 少し明るい青色に変更 */
+    opacity: 0.8; /* または、透明度を少し下げて暗くする */
+}
+
 /*おおきな背景画像
 -------------------------------------------*/
 .big-bg {
@@ -407,3 +415,4 @@ aside p {
         margin-left: 80px;
     }
 }
+
