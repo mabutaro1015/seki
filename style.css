@@ -367,7 +367,7 @@ aside p {
 
     /*HEADER*/
     .main-nav {
-        font-size: 1rem;
+        font-size: 0.7rem;
         margin-top: 10px;
     }
     .main-nav li {
@@ -419,5 +419,6 @@ aside p {
         margin-left: 80px;
     }
 }
+
 
 
