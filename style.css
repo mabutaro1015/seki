@@ -363,10 +363,15 @@ aside p {
     .page-title {
         font-size: 2.5rem;
         color: #0056b0;
+        background: rgba(255, 255, 255, 0.3);    
+        padding: 10px 10px;
+        border-radius: 18px;
+        text-transform: uppercase;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
     .sub-title2 {
         font-size:1rem;
-        color: #fff;
+        color: #022957;
     }
 
     /*HEADER*/
@@ -447,6 +452,7 @@ aside p {
 iframe {
     width: 100%;
 }
+
 
 
 
