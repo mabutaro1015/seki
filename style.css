@@ -349,6 +349,7 @@ aside p {
 @media (max-width: 600px)  {
     .page-title {
         font-size: 1.0rem;
+        color: #fff;
     }
 
     /*HEADER*/
@@ -405,6 +406,7 @@ aside p {
         margin-left: 80px;
     }
 }
+
 
 
 
