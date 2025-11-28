@@ -468,3 +468,11 @@ aside p {
 iframe {
     width: 100%;
 }
+
+/*コンタクトページiframe直上のイメージ画像*/
+.image-contact {
+    display:flex;
+    justify-content: center;
+    align-items: center; /* 交差軸（垂直方向）で中央に寄せる */
+    height: 300px; /* 垂直方向の中央配置には親要素の高さが必要です */
+}
