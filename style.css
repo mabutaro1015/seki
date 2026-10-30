@@ -36,7 +36,7 @@ h2 {
 }
 h3 {
     color: #0056b0;
-    font-size 1.375rem;
+    font-size: 1.375rem;
     font-family: "M PLUS 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -359,7 +359,8 @@ aside p {
 
 .item iframe {
     /* これが重要！ */
-    min-width: 0 !important;** width: 100%; 
+    min-width: 0 !important;
+    width: 100%;
     height: 700px;
     align-content: flex-start;
 
@@ -519,7 +520,7 @@ iframe {
     padding: 15px 20px;
     background-color: #007bff; /* ボタンの背景色 */
     color: #ffffff; /* 文字色 */
-    text-decoration: none /* 下線を削除 */
+    text-decoration: none; /* 下線を削除 */
     font-weight: bold;
     border-radius: 4px; /* 角を丸くする */
     box-shadow: 0 4px 6px rgba(0, 0, 4, 0.2);
@@ -774,6 +775,115 @@ iframe {
 }
 @media (max-width: 600px) {
     .home-guide .area-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* スマホ表示の見直し（2026-10-30追加） */
+@media (max-width: 768px) {
+    .iframe-container {
+        grid-template-columns: 1fr;
+    }
+    .item iframe {
+        width: 100% !important;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+    p, li, td, dd, dt, th {
+        font-size: 16px;
+        text-align: left;
+    }
+    .wrapper {
+        padding: 0 5%;
+    }
+    .logo {
+        width: 190px;
+    }
+    .page-header {
+        align-items: center;
+    }
+    .main-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2px 0;
+        margin: 8px 0 0;
+        padding: 0;
+    }
+    .main-nav li {
+        margin: 0 8px;
+        font-size: 0.95rem;
+        line-height: 2;
+        text-align: center;
+    }
+    .main-nav a {
+        display: block;
+        padding: 2px 4px;
+    }
+    .page-title {
+        font-size: 1.75rem;
+        line-height: 1.4;
+    }
+    #tt-page {
+        font-size: 1.75rem;
+    }
+    #event, #news {
+        height: auto;
+        min-height: 230px;
+        padding-bottom: 20px;
+        margin-bottom: 24px;
+    }
+    .event-list-content {
+        margin-left: 0;
+    }
+    .join-content li,
+    #list-id {
+        font-size: 1rem;
+        line-height: 1.9;
+        margin-bottom: 20px;
+    }
+    main, aside {
+        width: 100%;
+    }
+    .news-contents {
+        flex-direction: column;
+    }
+    #location .wrapper {
+        flex-direction: column;
+    }
+    .location-info,
+    .location-map {
+        width: 100%;
+    }
+    .item iframe {
+        height: 420px !important;
+    }
+    .course-pager a,
+    .shop-index a {
+        font-size: 0.9375rem;
+        padding: 8px 12px;
+    }
+    .shop-section {
+        font-size: 1.25rem;
+    }
+    .blog-links a .blog-title {
+        font-size: 1rem;
+    }
+    .blog-links a .blog-desc {
+        font-size: 0.8125rem;
+    }
+}
+
+/* スマホ表示の見直し（続き） */
+@media (max-width: 600px) {
+    .main-nav {
+        background: rgba(255, 255, 255, 0.88);
+        border-radius: 14px;
+        padding: 6px 10px;
+    }
+    .grid-buttons {
         grid-template-columns: 1fr;
     }
 }
