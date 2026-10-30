@@ -698,3 +698,18 @@ iframe {
         grid-template-columns: 1fr;
     }
 }
+
+/* 低解像度の写真を引き伸ばさない（2026-10-30追加） */
+.shop-photos {
+    justify-content: flex-start;
+}
+.shop-photos img {
+    flex: 0 1 calc(33.333% - 7px);
+    max-width: 340px;
+}
+@media (max-width: 600px) {
+    .shop-photos img {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
