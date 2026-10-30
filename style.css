@@ -730,3 +730,50 @@ iframe {
 .blog-links a:hover .blog-desc {
     color: #fff;
 }
+
+/* 地図リンク・ルートからのお店リンク・トップの案内（2026-10-30追加） */
+.shop-map {
+    margin-top: 10px;
+}
+.shop-map a {
+    display: inline-block;
+    padding: 6px 14px;
+    border: 1px solid #0056b0;
+    border-radius: 16px;
+    color: #0056b0;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+.shop-map a:hover {
+    background: #0056b0;
+    color: #fff;
+}
+.shop {
+    scroll-margin-top: 20px;
+}
+.route-shops-note {
+    text-align: center;
+    margin: 0 0 20px;
+}
+.item h4 a,
+.route-shops-note a {
+    color: #0056b0;
+    text-decoration: underline;
+}
+.home-guide {
+    margin: 40px auto 60px;
+}
+.home-guide-title {
+    text-align: center;
+    color: #0056b0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.home-guide .area-cards {
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 600px) {
+    .home-guide .area-cards {
+        grid-template-columns: 1fr;
+    }
+}
