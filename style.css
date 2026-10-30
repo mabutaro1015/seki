@@ -622,3 +622,31 @@ iframe {
 .main-nav li a {
     white-space: nowrap;
 }
+/* お店紹介ページ 目次・注記（2026-10-30追加） */
+.shop-index {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+.shop-index a {
+    display: block;
+    padding: 8px 18px;
+    border: 2px solid #0056b0;
+    border-radius: 8px;
+    color: #0056b0;
+    font-weight: bold;
+    text-decoration: none;
+}
+.shop-index a:hover {
+    background: #0056b0;
+    color: #fff;
+}
+.shop-note {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 40px;
+}
