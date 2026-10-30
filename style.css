@@ -530,3 +530,25 @@ iframe {
 .grid-buttons .button:hover {
     background-color: #0056b3; /* ホバーで色を濃くする */
 }
+
+/* 公認おすすめコースのページ切り替え（2026-10-30追加） */
+.course-pager {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0 30px;
+    flex-wrap: wrap;
+}
+.course-pager a {
+    padding: 10px 20px;
+    border: 2px solid #0056b0;
+    border-radius: 8px;
+    color: #0056b0;
+    text-decoration: none;
+    font-weight: bold;
+}
+.course-pager a.current,
+.course-pager a:hover {
+    background: #0056b0;
+    color: #fff;
+}
