@@ -713,3 +713,20 @@ iframe {
         max-width: 100%;
     }
 }
+
+/* メンバーブログの紹介文（2026-10-30追加） */
+.blog-links a .blog-title {
+    display: block;
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+}
+.blog-links a .blog-desc {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.7;
+    color: #333;
+}
+.blog-links a:hover .blog-desc {
+    color: #fff;
+}
