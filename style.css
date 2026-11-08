@@ -930,3 +930,10 @@ iframe {
     color: var(--tc);
     border-left-color: var(--tc);
 }
+
+/* エリアカードの店名チップも種類別の色に（2026-11-09追加） */
+.area-names li[class^="tag-"] {
+    background: color-mix(in srgb, var(--tc) 14%, #fff);
+    color: color-mix(in srgb, var(--tc) 72%, #000);
+    border: 1px solid color-mix(in srgb, var(--tc) 45%, #fff);
+}
