@@ -887,3 +887,46 @@ iframe {
         grid-template-columns: 1fr;
     }
 }
+
+/* 種類別の色分けタグ（2026-11-09追加） */
+.shop-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    margin-right: 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: middle;
+}
+.tag-cafe { --tc: #8b5a2b; }
+.tag-meal { --tc: #e8710a; }
+.tag-pan { --tc: #e0a800; }
+.tag-shop { --tc: #d8508a; }
+.tag-onsen { --tc: #7b4bb5; }
+.tag-michi { --tc: #1f6fd1; }
+.tag-bikeshop { --tc: #2e8b57; }
+.shop-tag { background: var(--tc); }
+.tag-pan.shop-tag { color: #4a3600; }
+.shop-index a[class^="tag-"] {
+    border-color: var(--tc);
+    color: var(--tc);
+}
+.shop-index a[class^="tag-"]:hover {
+    background: var(--tc);
+    color: #fff;
+}
+.shop-index a.tag-pan:hover {
+    color: #4a3600;
+}
+.sec-cafe { --tc: #8b5a2b; }
+.sec-meal { --tc: #e8710a; }
+.sec-pan { --tc: #e0a800; }
+.sec-shop { --tc: #d8508a; }
+.sec-onsen { --tc: #7b4bb5; }
+.sec-michi { --tc: #1f6fd1; }
+.sec-bikeshop { --tc: #2e8b57; }
+.shop-section[class*="sec-"] {
+    color: var(--tc);
+    border-left-color: var(--tc);
+}
