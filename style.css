@@ -949,3 +949,28 @@ iframe {
 .sec-nigiwai { --tc: #c2410c; }
 .tag-jinja { --tc: #6b4e9b; }
 .sec-jinja { --tc: #6b4e9b; }
+
+/* コース連携と地図ボタン（2026-11-09追加） */
+.shop-course {
+    font-size: 0.875rem;
+    color: #444;
+    margin: 6px 0 4px;
+}
+.shop-course a {
+    color: #0056b0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.shop-map a {
+    font-size: 0.75rem;
+    padding: 3px 12px;
+    border-color: #999;
+    color: #666;
+}
+.shop-map a:hover {
+    background: #666;
+    color: #fff;
+}
+.item {
+    scroll-margin-top: 20px;
+}
