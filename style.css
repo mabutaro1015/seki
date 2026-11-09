@@ -1022,3 +1022,10 @@ iframe {
 .level-list .lv-text { color: #555; }
 .first-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0; }
 .first-buttons .button { font-size: 1.05rem; padding: 12px 22px; display: inline-block; }
+
+/* 岐阜県エリア地図（2026-11-09追加） */
+.gifu-map { max-width: 520px; margin: 16px auto; text-align: center; }
+.gifu-map-svg { width: 100%; height: auto; display: block; }
+.gifu-map-svg .gm-area { cursor: pointer; }
+.gifu-map-svg .gm-area:hover path { opacity: 0.78; }
+.gifu-map-note { font-size: 0.85rem; color: #666; margin-top: 6px; }
