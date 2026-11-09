@@ -1055,7 +1055,7 @@ iframe {
     color: #111;
 }
 .area-card[class*="area-"] {
-    border-top: 8px solid var(--ac);
+    border-top: 18px solid var(--ac);
 }
 .area-card[class*="area-"] h3::before {
     content: "";
