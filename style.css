@@ -1029,3 +1029,48 @@ iframe {
 .gifu-map-svg .gm-area { cursor: pointer; }
 .gifu-map-svg .gm-area:hover path { opacity: 0.78; }
 .gifu-map-note { font-size: 0.85rem; color: #666; margin-top: 6px; }
+
+/* エリアの色（2026-11-09追加）: 地図と同じ色をタブ・カード・帯にだけ使う */
+.area-seki { --ac: #abd2ed; }
+.area-gifu { --ac: #ede2ab; }
+.area-shirakawa { --ac: #abedcc; }
+.area-gujo { --ac: #edc6ab; }
+.area-tono { --ac: #edabbb; }
+.area-seino { --ac: #d7abed; }
+.area-hida { --ac: #d2edab; }
+.course-pager a[class*="area-"] {
+    background: var(--ac);
+    border-color: var(--ac);
+    color: #2b2b2b;
+}
+.course-pager a[class*="area-"]:hover {
+    background: color-mix(in srgb, var(--ac) 80%, #000);
+    border-color: color-mix(in srgb, var(--ac) 80%, #000);
+    color: #2b2b2b;
+}
+.course-pager a[class*="area-"].current {
+    background: var(--ac);
+    border-color: color-mix(in srgb, var(--ac) 55%, #000);
+    box-shadow: 0 4px 0 color-mix(in srgb, var(--ac) 55%, #000);
+    color: #111;
+}
+.area-card[class*="area-"] {
+    border-top: 8px solid var(--ac);
+}
+.area-card[class*="area-"] h3::before {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: var(--ac);
+    border: 1px solid color-mix(in srgb, var(--ac) 60%, #000);
+    vertical-align: baseline;
+}
+.area-band {
+    height: 8px;
+    border-radius: 4px;
+    background: var(--ac);
+    margin: 4px 0 16px;
+}
