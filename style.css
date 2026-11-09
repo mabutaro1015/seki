@@ -937,3 +937,15 @@ iframe {
     color: color-mix(in srgb, var(--tc) 72%, #000);
     border: 1px solid color-mix(in srgb, var(--tc) 45%, #fff);
 }
+
+/* 見どころ紹介の種類別カラー（2026-11-09追加） */
+.tag-rekishi { --tc: #a83232; }
+.sec-rekishi { --tc: #a83232; }
+.tag-machinami { --tc: #2a7f8f; }
+.sec-machinami { --tc: #2a7f8f; }
+.tag-cycling { --tc: #5b8c1e; }
+.sec-cycling { --tc: #5b8c1e; }
+.tag-nigiwai { --tc: #c2410c; }
+.sec-nigiwai { --tc: #c2410c; }
+.tag-jinja { --tc: #6b4e9b; }
+.sec-jinja { --tc: #6b4e9b; }
