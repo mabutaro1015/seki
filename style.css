@@ -1000,3 +1000,15 @@ iframe {
 .item {
     scroll-margin-top: 20px;
 }
+
+/* 色をやわらかく（2026-11-09調整）: 色相は保ち、背景をうすい色に */
+.shop-tag,
+.area-names li[class^="tag-"],
+.color-legend li {
+    background: color-mix(in srgb, var(--tc) 18%, #fff);
+    color: color-mix(in srgb, var(--tc) 78%, #000);
+    border: 1px solid color-mix(in srgb, var(--tc) 50%, #fff);
+}
+.tag-pan.shop-tag,
+.area-names li.tag-pan,
+.color-legend li.tag-pan { color: #6b4e00; }
