@@ -1074,3 +1074,5 @@ iframe {
     background: var(--ac);
     margin: 4px 0 16px;
 }
+
+.gifu-map.gifu-map-half { width: 50%; min-width: 240px; max-width: 520px; margin: 12px auto; }
