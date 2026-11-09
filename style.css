@@ -899,13 +899,13 @@ iframe {
     color: #fff;
     vertical-align: middle;
 }
-.tag-cafe { --tc: #8b5a2b; }
-.tag-meal { --tc: #e8710a; }
-.tag-pan { --tc: #e0a800; }
-.tag-shop { --tc: #d8508a; }
+.tag-cafe { --tc: #7a4a21; }
+.tag-meal { --tc: #d32f2f; }
+.tag-pan { --tc: #f2b705; }
+.tag-shop { --tc: #2e9e5b; }
 .tag-onsen { --tc: #7b4bb5; }
 .tag-michi { --tc: #1f6fd1; }
-.tag-bikeshop { --tc: #2e8b57; }
+.tag-bikeshop { --tc: #5f6b73; }
 .shop-tag { background: var(--tc); }
 .tag-pan.shop-tag { color: #4a3600; }
 .shop-index a[class^="tag-"] {
@@ -919,13 +919,13 @@ iframe {
 .shop-index a.tag-pan:hover {
     color: #4a3600;
 }
-.sec-cafe { --tc: #8b5a2b; }
-.sec-meal { --tc: #e8710a; }
-.sec-pan { --tc: #e0a800; }
-.sec-shop { --tc: #d8508a; }
+.sec-cafe { --tc: #7a4a21; }
+.sec-meal { --tc: #d32f2f; }
+.sec-pan { --tc: #f2b705; }
+.sec-shop { --tc: #2e9e5b; }
 .sec-onsen { --tc: #7b4bb5; }
 .sec-michi { --tc: #1f6fd1; }
-.sec-bikeshop { --tc: #2e8b57; }
+.sec-bikeshop { --tc: #5f6b73; }
 .shop-section[class*="sec-"] {
     color: var(--tc);
     border-left-color: var(--tc);
@@ -933,10 +933,36 @@ iframe {
 
 /* エリアカードの店名チップも種類別の色に（2026-11-09追加） */
 .area-names li[class^="tag-"] {
-    background: color-mix(in srgb, var(--tc) 14%, #fff);
-    color: color-mix(in srgb, var(--tc) 72%, #000);
-    border: 1px solid color-mix(in srgb, var(--tc) 45%, #fff);
+    background: var(--tc);
+    color: #fff;
+    border: 1px solid var(--tc);
 }
+.area-names li.tag-pan { color: #4a3600; }
+
+/* 色の凡例（2026-11-09追加） */
+.color-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    list-style: none;
+    margin: 16px 0;
+    padding: 0;
+    font-size: 0.85rem;
+}
+.color-legend::before {
+    content: "色のめやす:";
+    font-weight: bold;
+    margin-right: 4px;
+}
+.color-legend li {
+    background: var(--tc);
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 14px;
+    font-weight: bold;
+}
+.color-legend li.tag-pan { color: #4a3600; }
 
 /* 見どころ紹介の種類別カラー（2026-11-09追加） */
 .tag-rekishi { --tc: #a83232; }
