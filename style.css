@@ -1020,3 +1020,5 @@ iframe {
 .level-list .lv-area { min-width: 8em; font-weight: bold; }
 .level-list .lv-star { color: #e0a800; letter-spacing: 1px; min-width: 6em; }
 .level-list .lv-text { color: #555; }
+.first-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0; }
+.first-buttons .button { font-size: 1.05rem; padding: 12px 22px; display: inline-block; }
