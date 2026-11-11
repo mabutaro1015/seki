@@ -1083,3 +1083,41 @@ iframe {
 }
 
 .gifu-map.gifu-map-half { width: 50%; min-width: 240px; max-width: 520px; margin: 12px auto; }
+
+/* せきサイ用語集の紹介コーナー(2026-11-11追加) */
+.glossary-teaser {
+    background: #fff4e0;
+    border-left: 8px solid #ff9800;
+    border-radius: 8px;
+    padding: 18px 22px 22px;
+    margin: 28px 0;
+}
+.glossary-teaser h2 {
+    margin-top: 0;
+}
+.glossary-teaser dt {
+    font-weight: bold;
+    color: #b35c00;
+    margin-top: 12px;
+}
+.glossary-teaser dd {
+    margin: 4px 0 0 0;
+}
+.glossary-teaser .glossary-more {
+    margin: 20px 0 0;
+}
+.button.button-accent,
+.grid-buttons .button.button-accent {
+    background: #ff9800;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+}
+.grid-buttons .button.button-accent {
+    display: block;
+}
+.button.button-accent:hover,
+.grid-buttons .button.button-accent:hover {
+    background: #e07f00;
+    opacity: 1;
+}
