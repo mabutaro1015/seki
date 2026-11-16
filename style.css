@@ -1121,3 +1121,15 @@ iframe {
     background: #e07f00;
     opacity: 1;
 }
+
+/* 峠コースボタン（2026-11-16追加） */
+.course-pager a.pager-toge {
+    background: #ff9800;
+    border-color: #ff9800;
+    color: #fff;
+}
+.course-pager a.pager-toge:hover {
+    background: #e68900;
+    border-color: #e68900;
+    color: #fff;
+}
